@@ -1,0 +1,20 @@
+.category_image {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.category_text {
+  font-size: 20px;
+  text-align: center;
+  color: #282828;
+  font-weight: 500;
+ 
+}
+
+.category_text:hover{
+  color: rgb(51, 153, 51);
+}
+
+

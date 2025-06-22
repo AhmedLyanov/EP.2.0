@@ -1,18 +1,31 @@
-import "./style.css";
-import logo from '../../assets/logo.png'
-function Header() {
-  return (
-    <div className="container__header max-h-32 h-128 p-8">
-      <div className="container__header_main">
-        <div className="container__logotype_header">
-            <img src={logo} alt="" />
-        </div>
-        <nav className="navigation__header w-full">
+import { Link } from "react-router-dom"
+import {ReactComponent as Logo} from '../../assets/media/logo.svg'
+import s from './Header.module.css'
+import CartIcon from "../CartIcon"
 
+
+function Header() {
+
+  return(
+    <header className={s.header}>
+      <div className={s.menu_wrapper}>
+        <Link to={'/'} className={s.logo}>
+          <Logo className={s.logo}/>
+        </Link>
+     
+        <nav className={s.menu}>
+          <Link to={'/'}>Main Page</Link>
+          <Link to={'/categories'}>Categories</Link>
+          <Link to={'/products/all'}>All products</Link>
+          <Link to={'products/sales'}>All sales</Link>
         </nav>
+      
+        <Link to={'/cart'}>
+          <CartIcon className={s.cart_icon}/>
+        </Link>
       </div>
-    </div>
-  );
+    </header> 
+  )
 }
 
-export default Header;
+export default Header

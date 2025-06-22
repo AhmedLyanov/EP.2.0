@@ -1,0 +1,59 @@
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 0 40px;
+  
+}
+
+.discount_form_banner {
+  width: 100%;
+  margin: auto;
+  padding: 32px 72px 0 32px;
+  background: linear-gradient(90deg, #339933, #0B710B);
+  border-radius: 12px;
+}
+
+.header_text {
+  text-align: center;
+  color: white;
+  padding-bottom: 24px;
+}
+
+.form_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.discount_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 16px;
+  padding-bottom: 32px;
+}
+
+.input_field {
+  font-size: 20px;
+  font-weight: 500;
+  background: none;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 12px 20px;
+  color: white;
+}
+
+.input_field::placeholder {
+  color: white;
+}
+
+.submit_button {
+  padding: 12px 32px;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}

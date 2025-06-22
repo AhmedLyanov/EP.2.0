@@ -1,0 +1,51 @@
+footer {
+  width: 100%;
+  max-width: 1440px;
+  padding: 80px 40px 80px 40px;
+  margin: auto;
+}
+
+.contacts_wrapper {
+  width: 100%;
+  max-width: 1360px;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 6fr 4fr;
+
+}
+.contact_item {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  flex-direction: column;
+  background-color: #F1F3F4;
+  border-radius: 12px;
+}
+
+.contact_item h3 {
+  font-size: 40px;
+  padding-right: 100px;
+  font-weight: 500;
+}
+.contact_item p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #8B8B8B
+}
+
+.contact_item:nth-child(5) {
+  grid-column: 1/3;
+  height: 350px;
+  padding: 0;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.smm_icons {
+  display: flex;
+  gap: 16px;
+}

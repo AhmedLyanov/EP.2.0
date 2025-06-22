@@ -1,0 +1,50 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 1000;
+}
+
+.modal_content {
+  position: relative;
+  color: white;
+  background: #393;
+  width: 548px;
+  padding: 32px;
+  border-radius: 12px;
+  transform: scale(0.1);
+  transition: 0.5s;
+}
+.modal_content > h2 {
+  font-size: 40px;
+}
+
+.modal_content > p {
+  font-size: 20px;
+  padding-bottom: 6px;
+}
+.wrapper.active {
+  opacity: 1;
+  background: rgba(28, 28, 28, 0.6);
+  pointer-events: all;
+}
+.modal_content.active {
+  transform: scale(1);
+}
+.close_button {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  cursor: pointer;
+
+}

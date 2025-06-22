@@ -1,0 +1,39 @@
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 80px 40px 0 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.header_text {
+  font-size: 64px;
+  font-weight: 700;
+  padding: 0 40px 0 0;
+  vertical-align: middle;
+}
+
+.header_navigation {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+}
+.decoration_line {
+  width: calc(100% - 150px);
+  border-bottom: 1px solid #DDD;
+}
+.navigation_button {
+  font-size: 16px;
+  color: #8B8B8B;
+  padding: 8px 16px;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid #DDD;
+  border-radius: 6px;
+}

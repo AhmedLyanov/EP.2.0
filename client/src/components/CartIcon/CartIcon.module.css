@@ -1,0 +1,19 @@
+.cart_logo {
+  position: relative;
+  width: 44px;
+}
+
+.items_number {
+  position: absolute;
+  top: 6px;
+  left: -1px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #339933;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

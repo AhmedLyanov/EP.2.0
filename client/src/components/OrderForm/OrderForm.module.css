@@ -1,0 +1,73 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  gap: 32px;
+  background: #F1F3F4;
+  border-radius: 12px;
+  height: fit-content;
+}
+.order_details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form_title {
+  font-size: 40px;
+  padding-bottom: 0;
+}
+.items_number, .order_sum_title {
+  color: #8B8B8B;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 130%
+}
+
+.order_sum_field {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.order_sum_value {
+color: var(--txt-black, #282828);
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 70.4px */
+}
+
+.discount_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.input_field {
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 16px 32px;
+  color:  #8B8B8B;
+  border-radius: 6px;
+  border: 1px solid #DDD;
+  background: white;
+}
+
+.input_field::placeholder {
+  color:  #8B8B8B;
+}
+
+.submit_button {
+  padding: 16px 32px;
+  background: #393;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}

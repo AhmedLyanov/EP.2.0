@@ -37,7 +37,7 @@ const start = async () =>{
         );
         
         app.listen(PORT, ()=>{
-            console.log(`\n\nServer started on ${PORT} port...`)
+            console.log(`\n\nServer started on http://localhost:${PORT} port...`)
         })
     }catch(err){
         console.log(err);

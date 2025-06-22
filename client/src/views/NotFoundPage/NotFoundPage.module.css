@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.picture {
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header_text {
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  color:#282828;
+}
+
+.four {
+  height: 270px;
+}
+
+.picture img {
+  height: 270px;
+}
+
+.info {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+.info p {
+  color: #8B8B8B;
+  text-align: center;
+  padding: 0 50px;
+  font-size: 20px;
+}
+
+.button {
+  margin-top: 40px;
+}

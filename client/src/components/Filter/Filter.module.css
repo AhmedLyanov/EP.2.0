@@ -1,0 +1,52 @@
+.wrapper {
+  width: 100%;
+  max-width: 1360px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.filter_form {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.filter_form > label {
+  display: flex;
+  gap: 16px;
+  color: #282828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.price_input {
+  font-size: 16px;
+  padding: 8px 16px;
+  width: 112px;
+  border-radius: 6px;
+  border: 1px solid  #DDD;
+}
+
+
+.check_box {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  border: 1px solid var(--grey-divider, #DDD);
+}
+
+.check_box:checked {
+  border-radius: 30px;
+  border: 1px solid #DDD;
+  background-color: antiquewhite;
+}
+
+.select_filter {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid var(--grey-divider, #DDD);
+
+}

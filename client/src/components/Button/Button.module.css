@@ -1,0 +1,20 @@
+.btn_elem {
+  padding: 12px 56px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+}
+
+.switch_background {
+  color: white;
+  background-color: #339933;
+  margin: auto;
+  width: 100%;
+}
+
+.switch_background:hover {
+  background-color: #282828;
+}
+

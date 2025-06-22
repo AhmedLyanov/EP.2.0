@@ -1,0 +1,117 @@
+.wrapper {
+  display: flex;
+  gap: 32px;
+  height: 180px;
+  border: 1px solid #DDD;
+  border-radius: 12px;
+  position: relative;
+}
+
+.image_wrapper {
+  width: 200px;
+  padding: 10px;
+  border-right: 1px solid #DDD;
+}
+
+.product_image {
+  width: 100%;
+  min-width: 180px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.product_info {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 32px 32px 0;
+  justify-content: space-between;
+}
+
+.product_title {
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+  overflow: hidden;
+  color: var(--txt-black, #282828);
+  text-overflow: ellipsis;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  max-width: calc(100% - 40px);
+}
+
+.counter {
+  display: flex;
+  border: 1px solid #DDD;
+  border-radius: 6px;
+  height: 58px;
+}
+
+.price_counter_area {
+  display: flex;
+  gap: 32px;
+}
+
+.less_button, .more_button {
+  width: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.less_button {
+  border-right: 1px solid #DDD;
+  border-radius: 6px;
+}
+
+.more_button {
+  border-left: 1px solid #DDD;
+  border-radius: 6px;
+}
+
+.counter_value {
+  width: 96px;
+  font-size: 20px;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_price_info {
+  display: flex;
+  gap: 16px
+}
+
+.product_price_section {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.product_price {
+  font-size: 40px;
+  font-weight: 600;
+  color: #282828
+}
+
+.initial_price {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration-line: line-through;
+  color: #8B8B8B;
+}
+
+.close_button {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  cursor: pointer;
+}
